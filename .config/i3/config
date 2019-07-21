@@ -190,8 +190,7 @@ bar {
 	position top
 }
 
-exec --no-startup-id feh --bg-scale ~/Pictures/makebetter.jpg
-exec --no-startup-id volumeicon
-exec --no-startup-id nm-applet
-exec --no-startup-id xcompmgr -c
-exec --no-startip-id xfce4-power-manager
+exec_always --no-startup-id feh --bg-scale ~/Pictures/makebetter.jpg
+exec_always --no-startup-id volumeicon
+exec_always --no-startup-id nm-applet
+exec_always --no-startup-id xfce4-power-manager
